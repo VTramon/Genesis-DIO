@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: turquoise;
+}
+.main-game {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genius {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 700px;
+  height: 700px;
+}
+
+.blue {
+  display: block;
+  height: 340px;
+  width: 340px;
+  border-top-left-radius: 100%;
+}
+.Byeok {
+  object-fit: cover;
+  height: 340px;
+  width: 340px;
+  border-top-left-radius: 100%;
+}
+
+.yellow {
+  display: block;
+  height: 340px;
+  width: 340px;
+  border-top-right-radius: 100%;
+}
+.Hun {
+  object-fit: cover;
+  height: 340px;
+  width: 340px;
+  border-top-right-radius: 100%;
+}
+
+.red {
+  display: block;
+  height: 340px;
+  width: 340px;
+  border-bottom-left-radius: 100%;
+}
+.Abdul {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.green {
+  display: block;
+  height: 340px;
+  width: 340px;
+  border-bottom-right-radius: 100%;
+}
+.Nam {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.selected {
+  opacity: 0.4;
+}
